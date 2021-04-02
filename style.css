@@ -59,7 +59,7 @@ padding: 1rem;
 margin-top: 3rem;
 }
 .skills-text {
-margin-top: 2rem;
+margin-top: .6rem;
 font-size: 2.4rem;
 /* padding-bottom: 1rem; */
 color: white;
@@ -83,12 +83,12 @@ color: white;
     transform: scale(2);
 }
 .thumbnail {
-    transition: transform .1s;
+    transition: transform 2s;
   
     display: block;
 }
 .thumbnail:hover {
-    transform: scale(4);
+    transform: scale(.5);
 }
 #contact {
     text-align: center;
@@ -117,4 +117,8 @@ color: white;
 a:hover {
     background-color: white;
     color:black;
+}
+.contact-link {
+    text-decoration: none;
+    color:white;
 }
