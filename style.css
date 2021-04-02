@@ -7,7 +7,7 @@ body {
    /* background-image: linear-gradient(to bottom right, #00F490, #00BBC9 ); */
     font-family:'Times New Roman', Times, serif;
     /* background-image:url(./images/mtnbg2.jpeg); */
-    background-color: #834770;
+    /* background-color: #834770; */
     /* background-image: linear-gradient(to bottom right, #3399FF, #A0A0A0, #99CCFF); */
     /* background-color: rgb(214,225,251); */
     /* background-color: rgb(214,225,251); */
@@ -69,3 +69,28 @@ color: white;
     margin: 10px;
     padding: 10px;
 } */
+.card {
+    /* background-color: #CCFFFF; */
+    transition: transform .2s;
+}
+.navbar-toggler {
+    color: white;
+}
+/* .card {
+    transition: transform .2s;
+} */
+.card:hover{
+    transform: scale(2);
+}
+.thumbnail {
+    transition: transform .1s;
+  
+    display: block;
+}
+.thumbnail:hover {
+    transform: scale(4);
+}
+#contact {
+    text-align: center;
+    margin: 10px;
+}
