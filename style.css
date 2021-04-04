@@ -69,26 +69,26 @@ color: white;
     margin: 10px;
     padding: 10px;
 } */
-.card {
-    /* background-color: #CCFFFF; */
+/* .card {
+    
     transition: transform .2s;
-}
+} */
 .navbar-toggler {
     color: white;
 }
 /* .card {
     transition: transform .2s;
 } */
-.card:hover{
+/* .card:hover{
     transform: scale(2);
-}
+} */
 .thumbnail {
-    transition: transform 2s;
+    transition: transform .2s;
   
     display: block;
 }
 .thumbnail:hover {
-    transform: scale(.5);
+    transform: scale(1.2);
 }
 #contact {
     text-align: center;
